@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-sca">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Netflixify</title>
+
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+        <!-- bootstrap Styles -->
+        <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+
+        <!-- vendor style -->
+        <link rel="stylesheet" href="dist/css/vendor.min.css">
+
+        <!-- font google -->
+        <link  href="https://fonts.googleapis.com/css?family=Roboto:300,500,700&display=swap" rel="stylesheet">
+        
+        <!-- Main Styles -->
+        <link rel="stylesheet" href="dist/css/main.min.css">
+
+    </head>
+    <body>
+     
+        <section id="show">
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">Netflix<span class="text-primary font-weight-bold">ify</span></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form action="" class="col-12 col-md-6 p-0 mt-1">
+                        <div class="input-group">
+                            <input type="search" class="form-control bg-transparent border-0" placeholder="search for your favotite movie" aria-label="search for your favotite movie" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                              <span class="input-group-text bg-transparent text-primary border-0" id="basic-addon2"><i class="fas fa-search"></i></span>
+                            </div>
+                          </div>
+                    </form>
+                    <ul class="navbar-nav ml-auto">
+                        <a href="login.html" class="btn btn-primary mb-2 mb-md-0 mr-0 mr-md-2">Login</a>
+                        <a href="register.html" class="btn btn-outline-light">Register</a>
+                    </ul>
+                    </div>
+                </div>
+            </nav>      
+            <div class="movie">
+                <div class="movie__bg">
+                        
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 d-flex justify-content-center align-items-center" style="background: url('dist/images/netflix-top50-May-2020.png') center/cover no-repeat;height: 70vh;">
+                            <span class="movie__play-icon d-flex justify-content-center align-items-center"><i class="fas fa-play text-white fa-2x"></i></span>
+                        </div>
+                        <div class="col-md-4 text-white">
+                            <h3 class="movie__name movie_rating fw-500">Iron Man</h3>
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <span class="fas fa-star text-primary mr-2"></span>
+                                    <span class="fas fa-star text-primary mr-2"></span>
+                                    <span class="fas fa-star text-primary mr-2"></span>
+                                    <span class="fas fa-star text-primary mr-2"></span>
+                                </div>
+                                <span class="align-self-center">4.6</span>
+                            </div>
+                            <p class="movie__description my-3">this is the bist films i show int the world and it is the bisthjs fg this is the bist films i show int the world and it is the bisthjs fg</p>
+                            <a href="" class="btn btn-primary text-capitalize my-3"><i class="far fa-heart"></i> add to favorites</a>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+        <section class="listing py-2">
+            <div class="container">
+                <div class="row my-4">
+                    <div class="col-12 d-flex row justify-content-between">
+                        <h3 class="listing__title text-white fw-300">Drema</h3>
+                        <a href="" class="align-self-center text-capitalize text-primary">see all</a>
+                    </div>
+                </div>
+                <div class="movies owl-carousel owl-theme">
+                    <div class="movie p-0">
+                        <img src="dist/images/images.jpg" class="img-fluid" alt="" width="500">
+                        <div class="movie__details text-white">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-0 movie__name">Movie Name</p>
+                                <span class="mb-0  movie__year align-self-center">2019</span>
+                            </div>
+                            <div class="d-flex movie_rating">
+                                <div class="mr-2">
+                                    <span class="fas fa-star text-primary"></span>
+                                    <span class="fas fa-star text-primary"></span>
+                                    <span class="fas fa-star text-primary"></span>
+                                    <span class="fas fa-star text-primary"></span>
+                                </div>
+                                <span>4.7</span>
+                            </div>
+                            <div class="movie___views">
+                                <p>Views: 300</p>
+                            </div>
+                            <div class="d-flex movie_cta">
+                                <a href="" class="btn btn-primary flex-fill" ><i class="fas fa-play"></i> Watch Now</a>
+                                <i class="far fa-heart fa-1x ml-2 align-self-center movie__fav-button"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie p-0">
+                        <img src="dist/images/download.jpg" class="img-fluid" alt="" width="500">
+                        <div class="movie__details text-white">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-0 movie__name">Movie Name</p>
+                                <span class="mb-0  movie__year align-self-center">2019</span>
+                            </div>
+                            <div class="d-flex movie_rating">
+                                <div class="mr-2">
+                                    <span class="fas fa-star text-primary"></span>
+                                    <span class="fas fa-star text-primary"></span>
+                                    <span class="fas fa-star text-primary"></span>
+                                    <span class="fas fa-star text-primary"></span>
+                                </div>
+                                <span>4.7</span>
+                            </div>
+                            <div class="movie___views">
+                                <p>Views: 300</p>
+                            </div>
+                            <div class="d-flex movie_cta">
+                                <a href="" class="btn btn-primary flex-fill" ><i class="fas fa-play"></i> Watch Now</a>
+                                <i class="far fa-heart fa-1x ml-2 align-self-center movie__fav-button"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie p-0">
+                        <img src="dist/images/8dc4537c32002f84145034836eca6298.jpg" class="img-fluid" alt="" width="500">
+                        <div class="movie__details text-white">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-0 movie__name">Movie Name</p>
+                                <span class="mb-0  movie__year align-self-center">2019</span>
+                            </div>
+                            <div class="d-flex movie_rating">
+                                <div class="mr-2">
+                                    <span class="fas fa-star text-primary"></span>
+                                    <span class="fas fa-star text-primary"></span>
+                                    <span class="fas fa-star text-primary"></span>
+                                    <span class="fas fa-star text-primary"></span>
+                                </div>
+                                <span>4.7</span>
+                            </div>
+                            <div class="movie___views">
+                                <p>Views: 300</p>
+                            </div>
+                            <div class="d-flex movie_cta">
+                                <a href="" class="btn btn-primary flex-fill" ><i class="fas fa-play"></i> Watch Now</a>
+                                <i class="far fa-heart fa-1x ml-2 align-self-center movie__fav-button"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie p-0">
+                        <img src="dist/images/images (3).jpg" class="img-fluid" alt="" width="500">
+                        <div class="movie__details text-white">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-0 movie__name">Movie Name</p>
+                                <span class="mb-0  movie__year align-self-center">2019</span>
+                            </div>
+                            <div class="d-flex movie_rating">
+                                <div class="mr-2">
+                                    <span class="fas fa-star text-primary"></span>
+                                    <span class="fas fa-star text-primary"></span>
+                                    <span class="fas fa-star text-primary"></span>
+                                    <span class="fas fa-star text-primary"></span>
+                                </div>
+                                <span>4.7</span>
+                            </div>
+                            <div class="movie___views">
+                                <p>Views: 300</p>
+                            </div>
+                            <div class="d-flex movie_cta">
+                                <a href="" class="btn btn-primary flex-fill" ><i class="fas fa-play"></i> Watch Now</a>
+                                <i class="far fa-heart fa-1x ml-2 align-self-center movie__fav-button"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="listing py-2">
+            <div class="container">
+                <div class="row my-4">
+                    <div class="col-12 d-flex row justify-content-between">   
+                        <h3 class="listing__title text-white fw-300">Action</h3>
+                        <a href="" class="align-self-center text-capitalize text-primary">see all</a>
+                    </div>
+                </div>
+                <div class="movies owl-carousel owl-theme">
+                    <div class="movie p-0">
+                        <img src="dist/images/images.jpg" class="img-fluid" alt="" width="500">
+                        <div class="movie__details text-white">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-0 movie__name">Movie Name</p>
+                                <span class="mb-0  movie__year align-self-center">2019</span>
+                            </div>
+                            <div class="d-flex movie_rating">
+                                <div class="mr-2">
+                                    <span class="fas fa-star text-primary"></span>
+                                    <span class="fas fa-star text-primary"></span>
+                                    <span class="fas fa-star text-primary"></span>
+                                    <span class="fas fa-star text-primary"></span>
+                                </div>
+                                <span>4.7</span>
+                            </div>
+                            <div class="movie___views">
+                                <p>Views: 300</p>
+                            </div>
+                            <div class="d-flex movie_cta">
+                                <a href="" class="btn btn-primary flex-fill" ><i class="fas fa-play"></i> Watch Now</a>
+                                <i class="far fa-heart fa-1x ml-2 align-self-center movie__fav-button"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie p-0">
+                        <img src="dist/images/download.jpg" class="img-fluid" alt="" width="500">
+                        <div class="movie__details text-white">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-0 movie__name">Movie Name</p>
+                                <span class="mb-0  movie__year align-self-center">2019</span>
+                            </div>
+                            <div class="d-flex movie_rating">
+                                <div class="mr-2">
+                                    <span class="fas fa-star text-primary"></span>
+                                    <span class="fas fa-star text-primary"></span>
+                                    <span class="fas fa-star text-primary"></span>
+                                    <span class="fas fa-star text-primary"></span>
+                                </div>
+                                <span>4.7</span>
+                            </div>
+                            <div class="movie___views">
+                                <p>Views: 300</p>
+                            </div>
+                            <div class="d-flex movie_cta">
+                                <a href="" class="btn btn-primary flex-fill" ><i class="fas fa-play"></i> Watch Now</a>
+                                <i class="far fa-heart fa-1x ml-2 align-self-center movie__fav-button"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie p-0">
+                        <img src="dist/images/8dc4537c32002f84145034836eca6298.jpg" class="img-fluid" alt="" width="500">
+                        <div class="movie__details text-white">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-0 movie__name">Movie Name</p>
+                                <span class="mb-0  movie__year align-self-center">2019</span>
+                            </div>
+                            <div class="d-flex movie_rating">
+                                <div class="mr-2">
+                                    <span class="fas fa-star text-primary"></span>
+                                    <span class="fas fa-star text-primary"></span>
+                                    <span class="fas fa-star text-primary"></span>
+                                    <span class="fas fa-star text-primary"></span>
+                                </div>
+                                <span>4.7</span>
+                            </div>
+                            <div class="movie___views">
+                                <p>Views: 300</p>
+                            </div>
+                            <div class="d-flex movie_cta">
+                                <a href="" class="btn btn-primary flex-fill" ><i class="fas fa-play"></i> Watch Now</a>
+                                <i class="far fa-heart fa-1x ml-2 align-self-center movie__fav-button"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie p-0">
+                        <img src="dist/images/images (3).jpg" class="img-fluid" alt="" width="500">
+                        <div class="movie__details text-white">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-0 movie__name">Movie Name</p>
+                                <span class="mb-0  movie__year align-self-center">2019</span>
+                            </div>
+                            <div class="d-flex movie_rating">
+                                <div class="mr-2">
+                                    <span class="fas fa-star text-primary"></span>
+                                    <span class="fas fa-star text-primary"></span>
+                                    <span class="fas fa-star text-primary"></span>
+                                    <span class="fas fa-star text-primary"></span>
+                                </div>
+                                <span>4.7</span>
+                            </div>
+                            <div class="movie___views">
+                                <p>Views: 300</p>
+                            </div>
+                            <div class="d-flex movie_cta">
+                                <a href="" class="btn btn-primary flex-fill" ><i class="fas fa-play"></i> Watch Now</a>
+                                <i class="far fa-heart fa-1x ml-2 align-self-center movie__fav-button"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer" class="footer py-3 bg-primary text-center text-white">
+            <p class="mb-0 text-capitalize">&copy; all copy right reserved for Eng\ Mohamed Ali</p>
+            <div class="social__icons">
+                <a href="" class="text-white mr-2"><i class="fab fa-facebook fa-1x"></i></a>
+                <a href="" class="text-white mr-2"><i class="fab fa-youtube fa-1x"></i></a>
+                <a href="" class="text-white mr-2"><i class="fab fa-twitter fa-1x"></i></a>
+            </div>
+        </footer>
+        <!-- jquery -->
+        <script language="JavaScript" type="text/javascript" src="dist/js/jquery-3.5.1.slim.min.js"></script>
+        
+        <!-- bootstrap -->
+        <script language="JavaScript" type="text/javascript" src="dist/js/popper.min.js"></script>
+        <script language="JavaScript" type="text/javascript" src="dist/js/bootstrap.min.js"></script>
+
+        <!-- vendor -->
+        <script language="JavaScript" type="text/javascript" src="dist/js/vendor.min.js"></script>
+        <!-- main scripts -->
+        <script language="JavaScript" type="text/javascript" src="dist/js/main.min.js"></script>
+        <script>
+          $(".listing .movies").owlCarousel({
+                    loop:true,
+                    nav:false,
+                    stagePadding: 50,
+                    responsive: {
+                        0:{
+                            items:1
+                        },
+                        
+                        600:{
+                            items:3
+                        },
+                        900:{
+                            items:3
+                        },
+                        1000: {
+                            items:4
+                        }
+
+                    },
+                    dots: false,
+                    margin: 20,
+                });
+        </script>
+    </body>
+</html>
